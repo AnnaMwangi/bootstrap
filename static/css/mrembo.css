@@ -1,0 +1,42 @@
+ul{
+    list-style-type:none;
+    background-color: skyblue;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+#mynav,#myan {
+    padding: 15px;
+    display: block;
+    color: white;
+    font-family: "DejaVu Sans";
+    font-size: 20px;
+}
+.container h1{
+    text-align: center;
+    padding: 1px;
+    font-size: 45px
+}
+.container p{
+    text-align: center;
+    padding: 30px;
+
+}
+#myan:hover{
+    background-color: black;
+}
+button{
+    text-align: left;
+    padding: 10px;
+    background-color: darkturquoise;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    --bs-btn-hover-bg: warning;
+}
+nav{
+    --bs-tooltip-margin: none;
+}
